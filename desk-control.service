@@ -1,0 +1,13 @@
+[Unit]
+Description=Bluetooth MQTT gateway - IKEA Desk Control
+Documentation=https://github.com/darkkatarsis/ikea-desk-control
+After=network.target
+
+[Service]
+Type=simple
+WorkingDirectory=/home/pi/ikea-desk-control/src
+ExecStart=/home/pi/ikea-desk-control/src/index.js
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
