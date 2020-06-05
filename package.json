@@ -30,6 +30,7 @@
   "author": "Steven Roebert",
   "license": "MIT",
   "dependencies": {
+    "@abandonware/bluetooth-hci-socket": "^0.5.3-5",
     "@abandonware/noble": "^1.9.2-8",
     "@babel/runtime": "^7.9.6",
     "mqtt": "^3.0.0",
